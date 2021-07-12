@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gistics Ltd</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icons.css"> 
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div class= "container-fluid gis_body">
+        <div class="column gis_container">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="column">
+                    <header class="gis_header">
+                        <span class="_1">
+                            <i class="fa fa-envelope"
+                            style="
+                            padding-right:6px;
+                            font-size:14px;"></i>
+                            <a href="mailto: info@gistics.com ? subject=Message from Gistics website">gisticslimited19@gmail.com</a>
+                        </span>
+                        <span class="_2">
+                            <i class="fa fa-phone"
+                            style="
+                            font-size: 16px;
+                            padding-right:5px"></i>
+                            contact:<a href="tel:+256775291436"> 0775291436</a>
+                        </span>
+                    </header>
+                    <div class="gis_logo">
+                        <div class="col-4">
+                            <img src="img/logo.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_body">
+                <div class="gis_hero">
+                    <img src="img/car6.jpg" alt="hero">
+                    <figcaption class="center w3-animate-bottom">RIDE IN</figcaption>
+                    <hr>
+                    <span class="centered Slides">Luxury</span>
+                    <span class="centered Slides">Class</span>
+                    <span class="centered Slides">Comfort</span>
+                </div>
+                <div class="fade-anime fade-in-bottom">
+                    <div class="gis_desc">
+                        <div class="col-lg-8 col-sm-8 col-md-8">
+                            <h2> who we are</h2>
+                            <hr>
+                            <span>
+                                <p>
+                                    Car hire is at the core of our existence, where we have expertise and provide excellent transport services to esteemed clients.
+                                    Gistics prides itself in access to a collection of different types of cars <em> including </em>-- luxury, safari and commercial cost-effective vehicles.<br>
+                                    Having safety among our core values, our vehicles are kept in good condition to see that our clients have a warm  and safe travel to any part of Uganda, topped off with Airport pickups and drop-offs including an optional liason.<br>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" fade-in-bottom">
+                    <div class="gis_desc">
+                        <div class="col-lg-8 col-sm-8 col-md-8">
+                            <h2> Our services</h2>
+                            <hr>
+                            <span>
+                                <p>
+                                    Choose from our wide range of vehicles what best suits your need.<br>
+                                    <em style="
+                                    font-size: larger; 
+                                    font-weight: 500; 
+                                    letter-spacing: 0.5px; 
+                                    text-decoration:underline;">We Get You There</em> to all destinations within Uganda.
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="gis_car-desc">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/bmw.jpeg" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>5 seater</span>
+                                        <h2>Luxury Cars</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/car3.jpg" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>8 seater</span>
+                                        <h2>Tourist vans</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/coaster.png" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>24 seater</span>
+                                        <h2>Coaster Buses</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/car1.jpg" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>5 seater</span>
+                                        <h2>off-road Cars</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/Saloon.jpg" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>5 seater</span>
+                                        <h2>Saloon Cars</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="col-lg-3 col-sm-5 gis_card">
+                                <img src="img/van.jpg" class="img_desc">
+                                <span class="car_label">
+                                    <div class="car_content">
+                                        <span>8 seater</span>
+                                        <h2>Safari Vans</h2>
+                                    </div>
+                                    <hr>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gis_end-credits gis_desc">
+                        <div class="col-lg-8 col-sm-8 col-md-8">
+                            <h2>about us</h2>
+                            <hr>    
+                            <span>
+                                <p>
+                                    Gistics Limited is a private company incorporated in <em>Kampala, Uganda</em> since 2018.<br>
+                                    We pride ourselves in the years of providing excellent transport services with an extra touch of care.<br>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review row">
+                    <div class="col-4 col-lg-4 col-sm-4">
+                        <img src="img/hero.jpg"/>
+                    </div>
+                    <div class="col-3 col-lg-3">
+                        <div class="review_text">
+                            <span>
+                                <h2>Customer Review</h2>
+                                <p>"Love the service with Gistics! Its timely, dependable, professional and trustworthy. 
+                                    Always my top choice for logistics."</p>
+                                    <em>~ Trudy K.</em>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gis_feedback gis_desc">
+                    <div class="col-lg-9 col-sm-9 col-md-9">
+                        <h2>Book With Us</h2>
+                        <hr>
+                        <span>
+                            <p>
+                                Send an email and talk to us. We have 24/7 service line that is always ready to serve your need! 
+                            </p>
+                        </span>
+                        <span></span>
+                        <div class="gis_email">
+                            <form action="" method="post" class="form-group">
+                                <div class="col-lg-12 col-sm-12 col-md-12">
+                                    <div class="column">
+                                        <span class="row">
+                                            <input class="form-control _name" placeholder="Name" type="text" aria-required="true">
+                                            <input class="form-control _email" placeholder="Email address" type="email" aria-required="true">
+                                        </span>
+                                        <span>
+                                            <input class="form-control _message" placeholder="Write message here..." type="text" aria-required="true">
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 40px; background-color: #800;"></div>
+                <div class="gis_footer" style="height: 220px;">
+                    <footer>
+                        <div class="_content column">
+                            <span class="row">
+                                <i class="fa fa-phone"></i>
+                                <h3>Contact:</h3> <a href="tel:+256775291436"> (+256)775291436</a>
+                            </span>
+                            <span class="row">
+                                <i class="fa fa-envelope"></i>
+                                <h3>Email:</h3><a href="mailto: info@gistics.com ? subject=Message from Gistics website">gisticslimited19@gmail.com</a>
+                            </span>
+                            <span class="row location">
+                                Uganda, Kampala.
+                            </span>
+                        </div>
+                        <div class="icons">
+                            <span>
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </span>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const scrollOffset = 150;
+ 
+    const scrollElement = document.querySelector(".fade-anime");
+  
+    const elementInView = (el, offset = 0) => {
+    const elementTop = el.getBoundingClientRect().top;
+  
+   return (
+     elementTop <= 
+     ((window.innerHeight || document.documentElement.clientHeight) - offset)
+    );
+    };
+    
+    const displayScrollElement = () => {
+    scrollElement.classList.add('scrolled');
+    }
+    
+    const hideScrollElement = () => {
+    scrollElement.classList.remove('scrolled');
+    }
+    
+    const handleScrollAnimation = () => {
+    if (elementInView(scrollElement, scrollOffset)) {
+        displayScrollElement();
+    } else {
+        hideScrollElement();
+    }
+    }
+    
+    window.addEventListener('scroll', () => {
+    handleScrollAnimation();
+    })
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); 
+    }
+
+    </script>
+  
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>

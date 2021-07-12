@@ -1,0 +1,579 @@
+/* 
+
+GISTICS WEBSITE CUSTOM STYLESHEET
+Designed by: Busigu Faith Daka
+Copyright Gistics Limited
+
+ */
+
+body{
+    top:0;
+    bottom:0;
+    right:5px;
+    left:5px;
+    overflow-y:scroll;
+    overflow-x:hidden!important;
+    font-size:20px;
+    font-weight:normal;
+    background: #fff;
+}
+html{
+    overflow-x:hidden!important;
+    border:none;
+    outline:none;
+    padding:0;
+    border:0
+}
+div{
+    display:block;
+}
+p{
+    margin-bottom:2px;
+}
+ul,ol{
+    list-style-type: none;
+    margin:0;
+    border:none;
+}
+li{
+    margin-bottom:2px;
+    cursor:pointer;
+}
+h1,h2,h3,h4{
+    font-weight:700;
+    text-decoration:none;
+    font-size:20px;
+    text-transform: uppercase;
+}
+hr{
+    border-bottom:0.4px solid #800;
+}
+span{
+    font-size:16px;
+    font-family: 'Teko';
+}
+i{
+    font-size:20px;
+    font-weight:500;
+    font-family: 'Font Awesome';
+    color:inherit;
+}
+a,
+a:focus,
+a:hover{
+    color:#010101;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    cursor:pointer
+}
+input{
+    border:none;
+    outline:none!important;
+    height:auto!important;
+}
+header{
+    background-color: #800000;
+    color:#ddd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:5px;
+    margin-bottom:0.5%;
+    margin-right: -2%;
+    margin-left: -2%;
+    display:none;
+}
+
+
+.gis_body .gis_container{
+    margin:none;
+}
+.gis_header a{
+    color:inherit;
+}
+.gis_header ._1{
+    font-size:17px;
+    margin-left:4%;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    text-decoration-color: inherit;
+}
+.gis_header ._2{
+    float:right;
+    text-transform: uppercase;
+    font-size:16px;
+    letter-spacing:0.6px;
+    font-weight:600;
+    margin-right:2%;
+}
+.container_body{
+    z-index: -1;
+}
+
+.gis_logo{
+    position: fixed;
+    top: 0;
+    right:10;
+    width: 95%;
+    background: #fff;
+    z-index: 99;
+}
+.gis_logo img{
+    margin-left: -10%;
+    width:220px;
+    max-width:80vw;
+}
+
+.gis_hero{
+    position: relative;
+    margin-top:7.9%;
+    margin-bottom:2%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.gis_hero img{
+    width: 100vw;
+    height:100%;
+    opacity:1;
+}
+.gis_hero img:hover{
+    width: 100vw;
+    height:100%;
+    opacity:0.7;
+}
+.gis_hero .center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-weight:600;
+    font-family: "Philosopher";
+    color: #f5f5f5;
+    letter-spacing:25px;
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.gis_hero:hover .center{
+    opacity:1;
+    top:65%;
+}
+.gis_hero .centered{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Sacramento", serif;
+    color: #ff0;
+    letter-spacing:15px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.gis_hero:hover .centered{
+    opacity:1;
+    top:75%;
+}
+
+.fade-anime{
+    opacity:0;
+    transition: opacity 1300ms;
+}
+.scrolled.fade-in-bottom{
+    opacity:1;
+    animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.gis_desc{
+    opacity:1;
+    margin-top:4%;
+    margin-bottom:2%;
+    padding:5px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.gis_desc h2{
+    font-size:40px;
+    font-family: "Lobster";
+    font: weight 600px;
+    letter-spacing:1.2px;
+    text-align:center;
+}
+.gis_desc span p{
+    font-size:20px;
+    font-family: "Philosopher";
+}
+
+.gis_car-desc{
+    margin-top:4%;
+    margin-left:13%;
+}
+.gis_car-desc .gis_card{
+    padding:3px;
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 3%;
+    margin-bottom:5%;
+    border:1px solid #eee;
+    box-shadow: 0px 2px 2px 2px #ddd;
+}
+.gis_card img{
+    width:inherit;
+    height:230px;
+}
+.gis_card .car_label{
+    margin-top:1.8%;
+    font-family: "Philosopher";
+}
+.car_content{
+    margin-left: 24%;
+}
+.car_label .car_content h2{
+    font-size: 20px;
+    color: #666;
+    font-weight: 600;
+    letter-spacing:1.2px;
+    padding-top:5%;
+}
+.car_label .car_content span{
+    margin-left: 18%;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.review{
+    margin-left:5%;
+}
+.review div img{
+    width:50vw;
+    height:400px;
+}
+.review .review_text{
+    height:280px;
+    margin-left: 60%;
+    margin-right:-150%;
+    margin-top:18%;
+    background-color: #444;
+    padding: 40px 70px 30px 50px;
+    box-shadow: 4px 3px 0px 0px #ddd;
+}
+.review_text span{
+    color:#f4f4f4;
+}
+.review_text span h2{
+    font-family: "Philosopher";
+    font-size:24px;
+    letter-spacing: 0.7px;
+    font-weight:100;
+}
+.review_text span p{
+    color:#ff0;
+    font-size:22px;
+    font-family: "Rancho";
+    letter-spacing: 0.2px;
+}
+
+.gis_email{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.gis_email span{
+    margin-bottom:2%;
+    width:800px;
+}
+.gis_email ._name{
+    width:350px;
+    margin-right:3%;
+    margin-top:3%;
+    margin-left:2%;
+}
+.gis_email ._email{
+    width:400px;
+    margin-top:3%;
+}
+
+.gis_footer{
+    background-color: #222;
+}
+.gis_footer ._content{
+    width:40%;
+    margin-left:33vw;
+    padding-top:2.5%;
+    letter-spacing:1.2px;
+    color:#f3f3f3;
+}
+.gis_footer ._content span h3{
+    font-family: "Philosopher";
+    font-size:22px;
+}
+.gis_footer ._content span i{
+    color: #ff0;
+    padding-right:12px;
+    font-size:24px;
+}
+.gis_footer ._content span a{
+    color: #ff0;
+    padding-left:20px;
+    font-size:20px;
+}
+.gis_footer ._content .location{
+    text-transform: uppercase;
+    margin-left:8vw;
+    font-size:16px;
+}
+.gis_footer .icons{
+    color:#ff0;
+    margin-top:4%;
+    margin-bottom:1%;
+    margin-left:37vw;
+}
+.gis_footer .icons i{
+    font-size:18px;
+    padding-left:20px;
+    padding-right:25px;
+    opacity: 0.8;
+    border-right: 0.5px solid #bbb;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 571px){
+    .gis_logo{
+        margin-bottom: 1%;
+        margin-left:-6%
+    }
+    .gis_logo img{
+        width:120px;
+    }
+    
+    .gis_hero{
+        margin-top:18%;
+    }
+    .gis_hero .center {
+        font-size: 40px;
+        letter-spacing:15px;
+    }
+    .gis_hero:hover .center{
+        opacity:1;
+        top:50%;
+    }
+    .gis_hero .centered{
+        font-size: 46px;
+        letter-spacing:8px;
+    }
+    .gis_hero:hover .centered{
+        opacity:1;
+        top:62%;
+    }
+
+    .fade-anime{
+        opacity:0.6;
+        transition: opacity 1300ms;
+    }
+    .scrolled.fade-in-bottom{
+        opacity:1;
+        animation: fade-in-bottom 1s ease-in-out both;
+    }
+
+    .gis_desc h2{
+        font-size:25px;
+        font-weight: 600px;
+        letter-spacing:1px;
+        margin-top:10%;
+    }
+    .gis_desc span p{
+        font-size:15px;
+    }
+    .gis_car-desc{
+        margin-top:10%;
+        margin-left:5%;
+    }
+
+    .review{
+        margin-left:0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .review div img{
+        width:80vw;
+        height:180px;
+    }
+    .review .review_text{
+        height:200px;
+        margin-left: 50%;
+        margin-right:-420%;
+        margin-top:-68%;
+        background-color: #444;
+        padding: 20px 40px 20px 40px;
+        box-shadow: 4px 3px 0px 0px #ddd;
+    }
+    .review_text span{
+        color:#f4f4f4;
+    }
+    .review_text span h2{
+        font-family: "Philosopher";
+        font-size:18px;
+        letter-spacing: 0px;
+        font-weight:100;
+    }
+    .review_text span p{
+        color:#ff0;
+        font-size:17px;
+        font-family: "Rancho";
+        letter-spacing:0px;
+    }
+
+    .gis_email span{
+        margin-bottom:2%;
+        width:90%;
+    }
+    .gis_email ._name{
+        width:350px;
+        margin-right:0%;
+        margin-top:3%;
+        margin-left:7%;
+    }
+    .gis_email ._email{
+        width:350px;
+        margin-top:3%;
+        margin-left:7%;
+    }
+    .gis_email ._message{
+        margin-top:3%;
+        margin-left:3%;
+    }
+
+    .gis_footer ._content{
+        width:70%;
+        margin-left:10vw;
+        padding-top:30px;
+        letter-spacing:0.5px;
+    }
+    .gis_footer ._content span h3{
+        font-size:17px;
+    }
+    .gis_footer ._content span i{
+        padding-right:5px;
+        font-size:17px;
+    }
+    .gis_footer ._content span a{
+        padding-left:4px;
+        font-size:15px;
+    }
+    .gis_footer ._content .location{
+        margin-left:12vw;
+        margin-top:5%;
+    }
+    .gis_footer .icons{
+        margin-top:9%;
+        margin-bottom:1%;
+        margin-left:8vw;
+    }
+    .gis_footer .icons i{
+        font-size:16px;
+    }
+}
+
+@media (min-width:571px) and (max-width:770px){
+    .gis_logo{
+        margin-bottom: 1%;
+        margin-left:-1%
+    }
+    .gis_logo img{
+        width:140px;
+    }
+    
+    .gis_hero{
+        margin-top:10%;
+    }
+    .gis_hero .center {
+        font-size: 55px;
+        letter-spacing:18px;
+    }
+    .gis_hero:hover .center{
+        opacity:1;
+        top:60%;
+    }
+    .gis_hero .centered{
+        font-size: 55px;
+        letter-spacing:8px;
+    }
+    .gis_hero:hover .centered{
+        opacity:1;
+        top:70%;
+    }
+
+    .fade-anime{
+        opacity:0.75;
+        transition: opacity 1300ms;
+    }
+    .scrolled.fade-in-bottom{
+        opacity:1;
+        animation: fade-in-bottom 1s ease-in-out both;
+    }
+
+    .review{
+        margin-left:0;
+    }
+    .review div img{
+        width:60vw;
+        height:320px;
+    }
+    .review .review_text{
+        height:240px;
+        margin-left: 30%;
+        margin-right:-180%;
+        margin-top:110%;
+        background-color: #444;
+        padding: 20px 20px 10px 30px;
+        box-shadow: 4px 3px 0px 0px #ddd;
+    }
+    .review_text span h2{
+        font-family: "Philosopher";
+        font-size:24px;
+        letter-spacing: 0px;
+        font-weight:100;
+    }
+    .review_text span p{
+        color:#ff0;
+        font-size:27px;
+        font-family: "Rancho";
+        letter-spacing:0px;
+    }
+
+    .gis_footer ._content{
+        width:80%;
+        margin-left:26vw;
+        padding-top:30px;
+        letter-spacing:0.5px;
+    }
+    .gis_footer ._content span h3{
+        font-size:22px;
+    }
+    .gis_footer ._content span i{
+        padding-right:5px;
+        font-size:22px;
+    }
+    .gis_footer ._content span a{
+        padding-left:4px;
+        font-size:22px;
+    }
+    .gis_footer ._content .location{
+        margin-left:12vw;
+        margin-top:5%;
+    }
+    .gis_footer .icons{
+        margin-top:4%;
+        margin-bottom:1%;
+        margin-left:30vw;
+    }
+    .gis_footer .icons i{
+        font-size:18px;
+    }
+}
