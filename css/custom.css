@@ -86,13 +86,13 @@ header{
 
 
 #loading-overlay {
-    background-color: white;
+    background-color: #f4f4f4;
     height: 100%;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .gis_body .gis_container{
@@ -312,6 +312,7 @@ header{
     margin-top:2%;
     color:#fff;
     background-color: #0080ff;
+    border-color: #0080ff;
     border-radius: 3px;
     box-shadow:none;
     font-size:16px;

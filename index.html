@@ -188,7 +188,8 @@
                         </span>
                         <span></span>
                         <div class="gis_email">
-                            <form action="" method="post" class="form-group">
+                            <form action="info@gistics.com" name="WebsiteForm"
+                            method="POST" class="form-group" enctype="multipart/form-data">
                                 <div class="col-lg-12 col-sm-12 col-md-12">
                                     <div class="column">
                                         <span class="row">
@@ -196,9 +197,9 @@
                                             <input class="form-control _email" placeholder="Email address" type="email" aria-required="true">
                                         </span>
                                         <span>
-                                            <input class="form-control _message" placeholder="Write message here..." type="text" aria-required="true">
+                                            <textarea class="form-control" name="WebsiteFeedback" rows="4" cols="60" placeholder="Write message here..."></textarea>
                                         </span>
-                                        <input type="submit" value="Send" class="submit"/>
+                                        <input type="submit" value="Submit" class="submit"/>
                                     </div>
                                 </div>
                             </form>
