@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <div class= "container-fluid gis_body">
+    <div class= "container-fluid gis_body" id="#loading-overlay">
         <div class="column gis_container">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="column">
@@ -39,14 +39,14 @@
                     </header>
                     <div class="gis_logo">
                         <div class="col-4">
-                            <img src="img/logo.png" alt="logo">
+                            <img src="img/logo.png" alt="logo" loading="eager">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container_body">
                 <div class="gis_hero">
-                    <img src="img/car6.jpg" alt="hero">
+                    <img src="img/car6.jpg" alt="hero" loading="eager">
                     <figcaption class="center w3-animate-bottom">RIDE IN</figcaption>
                     <hr>
                     <span class="centered Slides">Luxury</span>
@@ -62,7 +62,7 @@
                                 <p>
                                     Car hire is at the core of our existence, where we have expertise and provide excellent transport services to esteemed clients.
                                     Gistics prides itself in access to a collection of different types of cars <em> including </em>-- luxury, safari and commercial cost-effective vehicles.<br>
-                                    Having safety among our core values, our vehicles are kept in good condition to see that our clients have a warm  and safe travel to any part of Uganda, topped off with Airport pickups and drop-offs including an optional liason.<br>
+                                    Having safety among our core values, our vehicles are kept in good condition to see that our clients have a warm  and safe travel to any part of Uganda, topped off with Airport pickups and drop-offs including an optional liaison.<br>
                                 </p>
                             </span>
                         </div>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="review row">
                     <div class="col-4 col-lg-4 col-sm-4">
-                        <img src="img/hero.jpg"/>
+                        <img src="img/hero.jpg" alt="review.jpg" loading="lazy"/>
                     </div>
                     <div class="col-3 col-lg-3">
                         <div class="review_text">
@@ -198,6 +198,7 @@
                                         <span>
                                             <input class="form-control _message" placeholder="Write message here..." type="text" aria-required="true">
                                         </span>
+                                        <input type="submit" value="Send" class="submit"/>
                                     </div>
                                 </div>
                             </form>
@@ -235,6 +236,9 @@
     </div>
 
     <script>
+    window.onload = function() {
+    document.getElementById('loading-overlay').style.display='none';
+    }
     const scrollOffset = 150;
  
     const scrollElement = document.querySelector(".fade-anime");

@@ -85,6 +85,16 @@ header{
 }
 
 
+#loading-overlay {
+    background-color: white;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
 .gis_body .gis_container{
     margin:none;
 }
@@ -256,8 +266,8 @@ header{
     height:280px;
     margin-left: 60%;
     margin-right:-150%;
-    margin-top:18%;
-    background-color: #444;
+    margin-top:35%;
+    background-color: #555;
     padding: 40px 70px 30px 50px;
     box-shadow: 4px 3px 0px 0px #ddd;
 }
@@ -269,6 +279,7 @@ header{
     font-size:24px;
     letter-spacing: 0.7px;
     font-weight:100;
+    margin-top:4%;
 }
 .review_text span p{
     color:#ff0;
@@ -295,6 +306,15 @@ header{
 .gis_email ._email{
     width:400px;
     margin-top:3%;
+}
+.gis_email .submit{
+    padding:5px 6px;
+    margin-top:2%;
+    color:#fff;
+    background-color: #0080ff;
+    border-radius: 3px;
+    box-shadow:none;
+    font-size:16px;
 }
 
 .gis_footer{
@@ -406,10 +426,9 @@ header{
     }
     .review .review_text{
         height:200px;
-        margin-left: 50%;
+        margin-left: 40%;
         margin-right:-420%;
-        margin-top:-80%;
-        background-color: #444;
+        margin-top:-70%;
         padding: 20px 40px 20px 40px;
         box-shadow: 4px 3px 0px 0px #ddd;
     }
